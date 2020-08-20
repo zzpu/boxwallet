@@ -128,7 +128,7 @@ func (idb *internalDb) Close() error {
 }
 
 func Open(filePath string) error {
-	opts := badger.DefaultOptions
+	opts := badger.DefaultOptions(filePath)
 	opts.Dir = filePath
 	opts.ValueDir = filePath
 	db, err := badger.Open(opts)
