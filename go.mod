@@ -17,4 +17,5 @@ require (
 	github.com/sirupsen/logrus v1.6.0
 	github.com/spf13/cast v1.3.1
 	github.com/spf13/viper v1.7.1
+	github.com/zzpu/lib-bitcore v0.0.0-20200820191841-09aa8b64b32b
 )
