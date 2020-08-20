@@ -1,4 +1,4 @@
-module boxwallet
+module github.com/zzpu/boxwallet
 
 go 1.13
 
