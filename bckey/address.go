@@ -1,8 +1,8 @@
 package bckey
 
 import (
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/bckey/distribute"
+	"boxwallet/bccore"
+	"boxwallet/bckey/distribute"
 )
 
 type AddressFomatter interface {

@@ -10,11 +10,11 @@ import (
 
 	"time"
 
-	"github.com/boxproject/boxwallet/bccoin"
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/bctrans/client"
-	"github.com/boxproject/boxwallet/mock"
-	"github.com/boxproject/boxwallet/signature"
+	"boxwallet/bccoin"
+	"boxwallet/bccore"
+	"boxwallet/bctrans/client"
+	"boxwallet/mock"
+	"boxwallet/signature"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
 	"github.com/ethereum/go-ethereum/core/types"

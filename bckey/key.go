@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"strconv"
 
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/db"
-	"github.com/boxproject/boxwallet/errors"
+	"boxwallet/bccore"
+	"boxwallet/db"
+	"boxwallet/errors"
 	"github.com/btcsuite/btcutil/hdkeychain"
 )
 

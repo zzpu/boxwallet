@@ -3,7 +3,7 @@ package bcconfig_test
 import (
 	"testing"
 
-	"github.com/boxproject/boxwallet/bcconfig"
+	"boxwallet/bcconfig"
 )
 
 func TestFromConfigString(t *testing.T) {

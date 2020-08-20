@@ -14,8 +14,8 @@ import (
 
 	"time"
 
-	"github.com/boxproject/boxwallet/daemon"
-	"github.com/boxproject/boxwallet/util"
+	"boxwallet/daemon"
+	"boxwallet/util"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"

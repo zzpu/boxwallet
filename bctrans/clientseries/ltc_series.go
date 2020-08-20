@@ -1,9 +1,9 @@
 package clientseries
 
 import (
-	"github.com/boxproject/boxwallet/bcconfig"
-	rpcclient "github.com/boxproject/lib-bitcore/selrpcclient"
+	"boxwallet/bcconfig"
 	"github.com/ltcsuite/ltcd/chaincfg"
+	rpcclient "github.com/zzpu/lib-bitcore/selrpcclient"
 )
 
 type LtcSeriesClient struct {

@@ -6,19 +6,19 @@ import (
 
 	"log"
 
-	"github.com/boxproject/boxwallet/bccoin"
-	"github.com/boxproject/boxwallet/bcconfig"
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/bckey"
-	"github.com/boxproject/boxwallet/bctrans/clientseries"
-	"github.com/boxproject/boxwallet/errors"
-	"github.com/boxproject/boxwallet/official"
-	"github.com/boxproject/boxwallet/signature"
-	"github.com/boxproject/lib-bitcore/sebtcjson"
+	"boxwallet/bccoin"
+	"boxwallet/bcconfig"
+	"boxwallet/bccore"
+	"boxwallet/bckey"
+	"boxwallet/bctrans/clientseries"
+	"boxwallet/errors"
+	"boxwallet/official"
+	"boxwallet/signature"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
+	"github.com/zzpu/lib-bitcore/sebtcjson"
 )
 
 var btcCliIntance *BtcClient

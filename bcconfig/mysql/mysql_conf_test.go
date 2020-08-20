@@ -5,7 +5,7 @@ import (
 
 	"path"
 
-	"github.com/boxproject/boxwallet/bcconfig"
+	"boxwallet/bcconfig"
 )
 
 func TestDecodeConfig(t *testing.T) {

@@ -9,11 +9,11 @@ import (
 
 	"log"
 
-	daemonCnf "github.com/boxproject/boxwallet/bcconfig/official"
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/bctrans/clientseries"
-	"github.com/boxproject/boxwallet/errors"
-	"github.com/boxproject/boxwallet/pipeline"
+	daemonCnf "boxwallet/bcconfig/official"
+	"boxwallet/bccore"
+	"boxwallet/bctrans/clientseries"
+	"boxwallet/errors"
+	"boxwallet/pipeline"
 	"github.com/ethereum/go-ethereum/common"
 	ltchainhash "github.com/ltcsuite/ltcd/chaincfg/chainhash"
 )

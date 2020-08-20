@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/errors"
-	"github.com/boxproject/boxwallet/util"
+	"boxwallet/bccore"
+	"boxwallet/errors"
+	"boxwallet/util"
 )
 
 var defualtCoinCache *CoinCache

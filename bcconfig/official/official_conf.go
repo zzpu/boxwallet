@@ -1,7 +1,7 @@
 package official
 
 import (
-	"github.com/boxproject/boxwallet/bcconfig"
+	"boxwallet/bcconfig"
 	"github.com/mitchellh/mapstructure"
 )
 

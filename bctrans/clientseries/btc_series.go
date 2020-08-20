@@ -1,9 +1,9 @@
 package clientseries
 
 import (
-	"github.com/boxproject/boxwallet/bcconfig"
-	rpcclient "github.com/boxproject/lib-bitcore/serpcclient"
+	"boxwallet/bcconfig"
 	"github.com/btcsuite/btcd/chaincfg"
+	rpcclient "github.com/zzpu/lib-bitcore/serpcclient"
 )
 
 type OmniSeriesClient struct {

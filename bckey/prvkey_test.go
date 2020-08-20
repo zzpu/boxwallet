@@ -8,8 +8,8 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg"
 
-	"github.com/boxproject/boxwallet/bckey"
-	"github.com/boxproject/boxwallet/mock"
+	"boxwallet/bckey"
+	"boxwallet/mock"
 	"github.com/btcsuite/btcutil/hdkeychain"
 	"github.com/ethereum/go-ethereum/crypto"
 	lctchaincfg "github.com/ltcsuite/ltcd/chaincfg"

@@ -23,8 +23,8 @@ import (
 
 	"log"
 
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/errors"
+	"boxwallet/bccore"
+	"boxwallet/errors"
 )
 
 func init() {

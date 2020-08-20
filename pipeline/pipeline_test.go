@@ -3,7 +3,7 @@ package pipeline
 import (
 	"testing"
 
-	"github.com/boxproject/boxwallet/bccore"
+	"boxwallet/bccore"
 )
 
 var pipe = &Pipeline{}

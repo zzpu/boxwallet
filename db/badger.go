@@ -5,7 +5,7 @@ import (
 
 	"fmt"
 
-	"github.com/boxproject/boxwallet/util"
+	"boxwallet/util"
 	"github.com/dgraph-io/badger"
 	"github.com/sirupsen/logrus"
 )

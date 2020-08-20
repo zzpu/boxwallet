@@ -6,9 +6,9 @@ import (
 
 	"context"
 
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/bctrans/client"
-	"github.com/boxproject/boxwallet/errors"
+	"boxwallet/bccore"
+	"boxwallet/bctrans/client"
+	"boxwallet/errors"
 	"github.com/ethereum/go-ethereum/common"
 
 	"encoding/hex"

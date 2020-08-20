@@ -8,10 +8,10 @@ import (
 
 	"strconv"
 
-	"github.com/boxproject/boxwallet/bccoin"
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/bctrans/client"
-	"github.com/boxproject/boxwallet/errors"
+	"boxwallet/bccoin"
+	"boxwallet/bccore"
+	"boxwallet/bctrans/client"
+	"boxwallet/errors"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"

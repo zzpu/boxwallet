@@ -5,7 +5,7 @@ import (
 
 	"math/big"
 
-	"github.com/boxproject/boxwallet/util"
+	"boxwallet/util"
 )
 
 var su util.StrUtil

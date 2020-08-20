@@ -3,10 +3,10 @@ package bccoin_test
 import (
 	"testing"
 
-	"github.com/boxproject/boxwallet/bccoin"
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/errors"
-	"github.com/boxproject/boxwallet/mock"
+	"boxwallet/bccoin"
+	"boxwallet/bccore"
+	"boxwallet/errors"
+	"boxwallet/mock"
 )
 
 var (

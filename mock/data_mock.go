@@ -4,19 +4,19 @@ import (
 	"os"
 	"path"
 
-	"github.com/boxproject/boxwallet/bccoin"
-	"github.com/boxproject/boxwallet/bcconfig"
-	"github.com/boxproject/boxwallet/bcconfig/keynet"
-	mysqlConf "github.com/boxproject/boxwallet/bcconfig/mysql"
-	offcnf "github.com/boxproject/boxwallet/bcconfig/official"
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/bckey"
-	"github.com/boxproject/boxwallet/bctrans/client"
-	"github.com/boxproject/boxwallet/bctrans/token"
-	"github.com/boxproject/boxwallet/daemon"
-	"github.com/boxproject/boxwallet/db"
-	mysqlDB "github.com/boxproject/boxwallet/db/mysql"
-	"github.com/boxproject/boxwallet/official"
+	"boxwallet/bccoin"
+	"boxwallet/bcconfig"
+	"boxwallet/bcconfig/keynet"
+	mysqlConf "boxwallet/bcconfig/mysql"
+	offcnf "boxwallet/bcconfig/official"
+	"boxwallet/bccore"
+	"boxwallet/bckey"
+	"boxwallet/bctrans/client"
+	"boxwallet/bctrans/token"
+	"boxwallet/daemon"
+	"boxwallet/db"
+	mysqlDB "boxwallet/db/mysql"
+	"boxwallet/official"
 )
 
 func init() {
@@ -60,7 +60,7 @@ var (
 	Cache         *bccoin.CoinCache
 	KeyUtil       *bckey.KeyUtil
 	Gopath        = os.Getenv("GOPATH")
-	ProjectDir    = "src/github.com/boxproject/boxwallet"
+	ProjectDir    = "src/boxwallet"
 	MySqlConfPath = "bcconfig/config.yml"
 	YmlExt        = "yml"
 

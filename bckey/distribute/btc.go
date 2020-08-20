@@ -3,7 +3,7 @@ package distribute
 import (
 	"github.com/btcsuite/btcd/chaincfg"
 
-	"github.com/boxproject/boxwallet/bccore"
+	"boxwallet/bccore"
 	"github.com/btcsuite/btcutil/hdkeychain"
 )
 

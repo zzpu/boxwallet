@@ -3,7 +3,7 @@ package bckey
 import (
 	"sync"
 
-	"github.com/boxproject/boxwallet/bccore"
+	"boxwallet/bccore"
 )
 
 // *[]string => address pointer

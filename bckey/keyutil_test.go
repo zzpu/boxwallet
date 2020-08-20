@@ -3,8 +3,8 @@ package bckey_test
 import (
 	"testing"
 
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/mock"
+	"boxwallet/bccore"
+	"boxwallet/mock"
 	"github.com/btcsuite/btcutil/hdkeychain"
 )
 

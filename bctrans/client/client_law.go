@@ -1,10 +1,10 @@
 package client
 
 import (
-	"github.com/boxproject/boxwallet/bccoin"
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/bckey"
-	"github.com/boxproject/boxwallet/signature"
+	"boxwallet/bccoin"
+	"boxwallet/bccore"
+	"boxwallet/bckey"
+	"boxwallet/signature"
 )
 
 type TxInfo struct {

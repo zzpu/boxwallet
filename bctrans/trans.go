@@ -6,14 +6,14 @@ package bctrans
 import (
 	"log"
 
-	"github.com/boxproject/boxwallet/bccoin"
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/bctrans/client"
-	"github.com/boxproject/boxwallet/errors"
-	"github.com/boxproject/boxwallet/official"
-	"github.com/boxproject/boxwallet/pipeline"
-	"github.com/boxproject/boxwallet/signature"
-	"github.com/boxproject/boxwallet/util"
+	"boxwallet/bccoin"
+	"boxwallet/bccore"
+	"boxwallet/bctrans/client"
+	"boxwallet/errors"
+	"boxwallet/official"
+	"boxwallet/pipeline"
+	"boxwallet/signature"
+	"boxwallet/util"
 )
 
 type Trans struct {

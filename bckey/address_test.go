@@ -7,10 +7,10 @@ import (
 
 	"crypto/ecdsa"
 
-	"github.com/boxproject/boxwallet/bccore"
-	"github.com/boxproject/boxwallet/bckey"
-	"github.com/boxproject/boxwallet/bckey/distribute"
-	"github.com/boxproject/boxwallet/mock"
+	"boxwallet/bccore"
+	"boxwallet/bckey"
+	"boxwallet/bckey/distribute"
+	"boxwallet/mock"
 	"github.com/btcsuite/btcutil/hdkeychain"
 	"github.com/ethereum/go-ethereum/crypto"
 )
