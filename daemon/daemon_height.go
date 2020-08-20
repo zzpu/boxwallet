@@ -13,8 +13,8 @@ import (
 
 	"strings"
 
-	"boxwallet/bccore"
-	"boxwallet/util"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/util"
 )
 
 var logPath map[bccore.BloclChainType]string

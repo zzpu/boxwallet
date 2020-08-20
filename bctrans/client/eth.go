@@ -5,18 +5,18 @@ import (
 
 	"math/big"
 
-	"boxwallet/bccoin"
-	"boxwallet/bcconfig"
-	"boxwallet/bccore"
-	"boxwallet/bckey"
-	"boxwallet/bctrans/clientseries"
-	"boxwallet/errors"
-	"boxwallet/official"
-	"boxwallet/signature"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/zzpu/boxwallet/bccoin"
+	"github.com/zzpu/boxwallet/bcconfig"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bckey"
+	"github.com/zzpu/boxwallet/bctrans/clientseries"
+	"github.com/zzpu/boxwallet/errors"
+	"github.com/zzpu/boxwallet/official"
+	"github.com/zzpu/boxwallet/signature"
 )
 
 var ethCliIntance *EthClient

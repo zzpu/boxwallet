@@ -1,13 +1,13 @@
 package cli
 
 import (
-	"boxwallet/bccoin"
-	"boxwallet/bccore"
-	"boxwallet/bckey"
-	"boxwallet/bctrans"
-	"boxwallet/bctrans/token"
-	"boxwallet/pipeline"
-	"boxwallet/signature"
+	"github.com/zzpu/boxwallet/bccoin"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bckey"
+	"github.com/zzpu/boxwallet/bctrans"
+	"github.com/zzpu/boxwallet/bctrans/token"
+	"github.com/zzpu/boxwallet/pipeline"
+	"github.com/zzpu/boxwallet/signature"
 )
 
 type AppServer struct {

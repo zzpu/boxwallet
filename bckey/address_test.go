@@ -7,12 +7,12 @@ import (
 
 	"crypto/ecdsa"
 
-	"boxwallet/bccore"
-	"boxwallet/bckey"
-	"boxwallet/bckey/distribute"
-	"boxwallet/mock"
 	"github.com/btcsuite/btcutil/hdkeychain"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bckey"
+	"github.com/zzpu/boxwallet/bckey/distribute"
+	"github.com/zzpu/boxwallet/mock"
 )
 
 type AddressHandler struct {

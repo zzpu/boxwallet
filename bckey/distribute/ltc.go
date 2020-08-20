@@ -1,9 +1,9 @@
 package distribute
 
 import (
-	"boxwallet/bccore"
 	"github.com/ltcsuite/ltcd/chaincfg"
 	"github.com/ltcsuite/ltcutil/hdkeychain"
+	"github.com/zzpu/boxwallet/bccore"
 )
 
 type LtcAddress struct {

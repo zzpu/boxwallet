@@ -5,9 +5,9 @@ import (
 
 	"fmt"
 
-	"boxwallet/util"
 	"github.com/dgraph-io/badger"
 	"github.com/sirupsen/logrus"
+	"github.com/zzpu/boxwallet/util"
 )
 
 var (

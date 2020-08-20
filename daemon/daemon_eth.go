@@ -6,10 +6,10 @@ import (
 
 	"context"
 
-	"boxwallet/bccore"
-	"boxwallet/bctrans/client"
-	"boxwallet/errors"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bctrans/client"
+	"github.com/zzpu/boxwallet/errors"
 
 	"encoding/hex"
 

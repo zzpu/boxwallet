@@ -10,15 +10,15 @@ import (
 
 	"time"
 
-	"boxwallet/bccoin"
-	"boxwallet/bccore"
-	"boxwallet/bctrans/client"
-	"boxwallet/mock"
-	"boxwallet/signature"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
 	"github.com/ethereum/go-ethereum/core/types"
 	ltcwire "github.com/ltcsuite/ltcd/wire"
+	"github.com/zzpu/boxwallet/bccoin"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bctrans/client"
+	"github.com/zzpu/boxwallet/mock"
+	"github.com/zzpu/boxwallet/signature"
 )
 
 type cliHandler struct {

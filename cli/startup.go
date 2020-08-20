@@ -7,19 +7,19 @@ import (
 
 	"log"
 
-	"boxwallet/bccoin"
-	"boxwallet/bcconfig"
-	"boxwallet/bcconfig/keynet"
-	mysqlConf "boxwallet/bcconfig/mysql"
-	offcnf "boxwallet/bcconfig/official"
-	"boxwallet/bccore"
-	"boxwallet/bckey"
-	"boxwallet/bctrans/client"
-	"boxwallet/bctrans/token"
-	"boxwallet/daemon"
-	"boxwallet/db"
-	mysqlDB "boxwallet/db/mysql"
-	"boxwallet/official"
+	"github.com/zzpu/boxwallet/bccoin"
+	"github.com/zzpu/boxwallet/bcconfig"
+	"github.com/zzpu/boxwallet/bcconfig/keynet"
+	mysqlConf "github.com/zzpu/boxwallet/bcconfig/mysql"
+	offcnf "github.com/zzpu/boxwallet/bcconfig/official"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bckey"
+	"github.com/zzpu/boxwallet/bctrans/client"
+	"github.com/zzpu/boxwallet/bctrans/token"
+	"github.com/zzpu/boxwallet/daemon"
+	"github.com/zzpu/boxwallet/db"
+	mysqlDB "github.com/zzpu/boxwallet/db/mysql"
+	"github.com/zzpu/boxwallet/official"
 )
 
 func init() {

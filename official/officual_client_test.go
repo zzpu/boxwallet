@@ -4,9 +4,9 @@ import (
 	"path"
 	"testing"
 
-	"boxwallet/bcconfig"
-	"boxwallet/bctrans/clientseries"
-	"boxwallet/mock"
+	"github.com/zzpu/boxwallet/bcconfig"
+	"github.com/zzpu/boxwallet/bctrans/clientseries"
+	"github.com/zzpu/boxwallet/mock"
 )
 
 func TestNewBtcNode(t *testing.T) {

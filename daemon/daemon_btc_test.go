@@ -11,10 +11,10 @@ import (
 
 	"strings"
 
-	"boxwallet/bccoin"
-	"boxwallet/bccore"
-	"boxwallet/daemon"
-	_ "boxwallet/mock"
+	"github.com/zzpu/boxwallet/bccoin"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/daemon"
+	_ "github.com/zzpu/boxwallet/mock"
 )
 
 var btcDaemon *daemon.BtcDaemon

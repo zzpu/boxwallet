@@ -9,12 +9,12 @@ import (
 
 	"log"
 
-	"boxwallet/bcconfig/official"
-	"boxwallet/bccore"
-	"boxwallet/bckey"
-	"boxwallet/db/mysql"
-	"boxwallet/pipeline"
-	"boxwallet/util"
+	"github.com/zzpu/boxwallet/bcconfig/official"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bckey"
+	"github.com/zzpu/boxwallet/db/mysql"
+	"github.com/zzpu/boxwallet/pipeline"
+	"github.com/zzpu/boxwallet/util"
 )
 
 var (

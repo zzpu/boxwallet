@@ -18,8 +18,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"boxwallet/mock"
-	"boxwallet/signature"
+	"github.com/zzpu/boxwallet/mock"
+	"github.com/zzpu/boxwallet/signature"
 )
 
 type txUHandler struct {

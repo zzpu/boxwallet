@@ -9,13 +9,13 @@ import (
 
 	"log"
 
-	daemonCnf "boxwallet/bcconfig/official"
-	"boxwallet/bccore"
-	"boxwallet/bctrans/clientseries"
-	"boxwallet/errors"
-	"boxwallet/pipeline"
 	"github.com/ethereum/go-ethereum/common"
 	ltchainhash "github.com/ltcsuite/ltcd/chaincfg/chainhash"
+	daemonCnf "github.com/zzpu/boxwallet/bcconfig/official"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bctrans/clientseries"
+	"github.com/zzpu/boxwallet/errors"
+	"github.com/zzpu/boxwallet/pipeline"
 )
 
 var (

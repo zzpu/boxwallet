@@ -4,14 +4,14 @@ import (
 	"math/big"
 	"time"
 
-	"boxwallet/bccoin"
-	"boxwallet/bccore"
-	"boxwallet/bctrans/client"
-	"boxwallet/errors"
 	"github.com/ltcsuite/ltcd/chaincfg"
 	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
 	"github.com/ltcsuite/ltcd/txscript"
 	"github.com/ltcsuite/ltcd/wire"
+	"github.com/zzpu/boxwallet/bccoin"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bctrans/client"
+	"github.com/zzpu/boxwallet/errors"
 )
 
 type LtcDaemon struct {

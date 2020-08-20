@@ -7,12 +7,12 @@ import (
 
 	"log"
 
-	"boxwallet/bccore"
-	"boxwallet/errors"
-	"boxwallet/util"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcutil/hdkeychain"
 	"github.com/dgraph-io/badger"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/errors"
+	"github.com/zzpu/boxwallet/util"
 )
 
 //Both public and private keys are available

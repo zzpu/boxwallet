@@ -14,11 +14,11 @@ import (
 
 	"time"
 
-	"boxwallet/daemon"
-	"boxwallet/util"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/zzpu/boxwallet/daemon"
+	"github.com/zzpu/boxwallet/util"
 )
 
 var ethDaemon *daemon.EthDaemon

@@ -1,9 +1,9 @@
 package keynet
 
 import (
-	"boxwallet/bcconfig"
-	"boxwallet/bccore"
 	"github.com/mitchellh/mapstructure"
+	"github.com/zzpu/boxwallet/bcconfig"
+	"github.com/zzpu/boxwallet/bccore"
 )
 
 const (

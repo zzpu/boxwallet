@@ -3,8 +3,8 @@ package pipeline_test
 import (
 	"testing"
 
-	"boxwallet/bccore"
-	"boxwallet/pipeline"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/pipeline"
 )
 
 var hCache = pipeline.GetHeightCacheInstance()

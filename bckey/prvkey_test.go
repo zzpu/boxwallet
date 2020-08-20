@@ -8,13 +8,13 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg"
 
-	"boxwallet/bckey"
-	"boxwallet/mock"
 	"github.com/btcsuite/btcutil/hdkeychain"
 	"github.com/ethereum/go-ethereum/crypto"
 	lctchaincfg "github.com/ltcsuite/ltcd/chaincfg"
 	ltchdkeychain "github.com/ltcsuite/ltcutil/hdkeychain"
 	_ "github.com/stretchr/testify/mock"
+	"github.com/zzpu/boxwallet/bckey"
+	"github.com/zzpu/boxwallet/mock"
 )
 
 func TestGenerateSimpleKey(t *testing.T) {

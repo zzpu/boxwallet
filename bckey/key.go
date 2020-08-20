@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"strconv"
 
-	"boxwallet/bccore"
-	"boxwallet/db"
-	"boxwallet/errors"
 	"github.com/btcsuite/btcutil/hdkeychain"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/db"
+	"github.com/zzpu/boxwallet/errors"
 )
 
 /*

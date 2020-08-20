@@ -1,8 +1,8 @@
 package official
 
 import (
-	"boxwallet/bcconfig"
 	"github.com/mitchellh/mapstructure"
+	"github.com/zzpu/boxwallet/bcconfig"
 )
 
 type Config struct {

@@ -8,14 +8,14 @@ import (
 
 	"strconv"
 
-	"boxwallet/bccoin"
-	"boxwallet/bccore"
-	"boxwallet/bctrans/client"
-	"boxwallet/errors"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
+	"github.com/zzpu/boxwallet/bccoin"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bctrans/client"
+	"github.com/zzpu/boxwallet/errors"
 )
 
 type BtcDaemon struct {

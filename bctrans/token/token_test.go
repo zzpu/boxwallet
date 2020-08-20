@@ -3,9 +3,9 @@ package token_test
 import (
 	"testing"
 
-	"boxwallet/bccore"
-	"boxwallet/bctrans/token"
-	"boxwallet/mock"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bctrans/token"
+	"github.com/zzpu/boxwallet/mock"
 )
 
 func Test_GetTokenInfo(t *testing.T) {

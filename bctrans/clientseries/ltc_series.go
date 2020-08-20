@@ -1,8 +1,8 @@
 package clientseries
 
 import (
-	"boxwallet/bcconfig"
 	"github.com/ltcsuite/ltcd/chaincfg"
+	"github.com/zzpu/boxwallet/bcconfig"
 	rpcclient "github.com/zzpu/lib-bitcore/selrpcclient"
 )
 

@@ -3,7 +3,7 @@ package daemon_test
 import (
 	"testing"
 
-	_ "boxwallet/mock"
+	_ "github.com/zzpu/boxwallet/mock"
 )
 
 func TestStart(t *testing.T) {

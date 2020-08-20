@@ -6,18 +6,18 @@ import (
 
 	"log"
 
-	"boxwallet/bccoin"
-	"boxwallet/bcconfig"
-	"boxwallet/bccore"
-	"boxwallet/bckey"
-	"boxwallet/bctrans/clientseries"
-	"boxwallet/errors"
-	"boxwallet/official"
-	"boxwallet/signature"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
+	"github.com/zzpu/boxwallet/bccoin"
+	"github.com/zzpu/boxwallet/bcconfig"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bckey"
+	"github.com/zzpu/boxwallet/bctrans/clientseries"
+	"github.com/zzpu/boxwallet/errors"
+	"github.com/zzpu/boxwallet/official"
+	"github.com/zzpu/boxwallet/signature"
 	"github.com/zzpu/lib-bitcore/sebtcjson"
 )
 

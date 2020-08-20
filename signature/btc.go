@@ -14,10 +14,10 @@ import (
 
 	"math/big"
 
-	"boxwallet/errors"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil/hdkeychain"
+	"github.com/zzpu/boxwallet/errors"
 )
 
 type BtcTx struct {

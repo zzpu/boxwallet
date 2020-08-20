@@ -3,8 +3,8 @@ package token
 import (
 	"sync"
 
-	"boxwallet/bccoin"
-	"boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bccoin"
+	"github.com/zzpu/boxwallet/bccore"
 )
 
 //全局address Map

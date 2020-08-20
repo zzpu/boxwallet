@@ -3,7 +3,7 @@ package official
 import (
 	"testing"
 
-	"boxwallet/bcconfig"
+	"github.com/zzpu/boxwallet/bcconfig"
 )
 
 func TestDecodeConfig(t *testing.T) {

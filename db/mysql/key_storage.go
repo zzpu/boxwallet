@@ -1,9 +1,9 @@
 package mysql
 
 import (
-	"boxwallet/bcconfig/mysql"
-	"boxwallet/db"
 	"github.com/jinzhu/gorm"
+	"github.com/zzpu/boxwallet/bcconfig/mysql"
+	"github.com/zzpu/boxwallet/db"
 )
 
 type Key struct {

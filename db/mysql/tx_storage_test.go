@@ -5,8 +5,8 @@ import (
 
 	"time"
 
-	mysqlDB "boxwallet/db/mysql"
-	"boxwallet/mock"
+	mysqlDB "github.com/zzpu/boxwallet/db/mysql"
+	"github.com/zzpu/boxwallet/mock"
 )
 
 func TestCreateTable(t *testing.T) {

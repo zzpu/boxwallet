@@ -3,9 +3,9 @@ package bckey_test
 import (
 	"testing"
 
-	"boxwallet/bccore"
-	"boxwallet/mock"
 	"github.com/btcsuite/btcutil/hdkeychain"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/mock"
 )
 
 var (

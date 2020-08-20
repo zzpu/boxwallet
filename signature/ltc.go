@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"boxwallet/errors"
 	"github.com/ltcsuite/ltcd/btcec"
 	"github.com/ltcsuite/ltcd/chaincfg"
 	"github.com/ltcsuite/ltcd/txscript"
 	"github.com/ltcsuite/ltcd/wire"
 	"github.com/ltcsuite/ltcutil"
 	"github.com/ltcsuite/ltcutil/hdkeychain"
+	"github.com/zzpu/boxwallet/errors"
 )
 
 type LtcTx struct {

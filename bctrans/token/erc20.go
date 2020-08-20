@@ -7,10 +7,10 @@
 package token
 
 import (
-	"boxwallet/bccoin"
-	"boxwallet/bccore"
-	"boxwallet/bctrans/client"
-	"boxwallet/util"
+	"github.com/zzpu/boxwallet/bccoin"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bctrans/client"
+	"github.com/zzpu/boxwallet/util"
 
 	"github.com/dgraph-io/badger"
 	"github.com/ethereum/go-ethereum/common"

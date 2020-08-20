@@ -3,8 +3,8 @@ package distribute
 import (
 	"github.com/btcsuite/btcd/chaincfg"
 
-	"boxwallet/bccore"
 	"github.com/btcsuite/btcutil/hdkeychain"
+	"github.com/zzpu/boxwallet/bccore"
 )
 
 type BtcAddress struct {

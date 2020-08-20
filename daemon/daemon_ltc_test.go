@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"boxwallet/daemon"
+	"github.com/zzpu/boxwallet/daemon"
 )
 
 var ltcDaemon *daemon.LtcDaemon

@@ -3,7 +3,7 @@ package pipeline
 import (
 	"sync"
 
-	"boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bccore"
 )
 
 type Heights struct {

@@ -7,9 +7,9 @@ import (
 
 	"encoding/json"
 
-	"boxwallet/bcconfig/mysql"
-	"boxwallet/db"
 	"github.com/jinzhu/gorm"
+	"github.com/zzpu/boxwallet/bcconfig/mysql"
+	"github.com/zzpu/boxwallet/db"
 )
 
 func (c *TxObj) Value() (driver.Value, error) {

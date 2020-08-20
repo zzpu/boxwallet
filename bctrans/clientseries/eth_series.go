@@ -5,8 +5,8 @@ import (
 
 	"strconv"
 
-	"boxwallet/bcconfig"
 	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/zzpu/boxwallet/bcconfig"
 )
 
 type EthSeriesClient struct {

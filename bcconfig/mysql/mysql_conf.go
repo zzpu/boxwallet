@@ -1,8 +1,8 @@
 package mysql
 
 import (
-	"boxwallet/bcconfig"
 	"github.com/mitchellh/mapstructure"
+	"github.com/zzpu/boxwallet/bcconfig"
 )
 
 const (

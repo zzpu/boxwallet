@@ -3,10 +3,10 @@ package bctrans_test
 import (
 	"testing"
 
-	"boxwallet/bccoin"
-	"boxwallet/bccore"
-	"boxwallet/bctrans"
-	"boxwallet/mock"
+	"github.com/zzpu/boxwallet/bccoin"
+	"github.com/zzpu/boxwallet/bccore"
+	"github.com/zzpu/boxwallet/bctrans"
+	"github.com/zzpu/boxwallet/mock"
 )
 
 func TestTrans(t *testing.T) {
